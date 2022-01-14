@@ -1,9 +1,12 @@
-import NavBar from './Components/NavBar';
 import './App.css';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <NavBar/>
+
+    <Header
+      nombre="COMPUSHOP"
+    />
   );
 }
 
